@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  text-align: center;
+  justify-content: center;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:110%;
+  background-color: #FCF7F8;
+  display: flex;
+  flex-direction:column;
+}
+h1{color: white;
+background-color: #343330;}
+
+#profilePhoto{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+#heading{
+  padding-bottom: 50px;
+  padding-top: 30px;
+  background-color: #343330; 
+  align-items: center;
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+.content{
+  margin: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: unset;
+  justify-content: space-between;
+}
+footer{
+  background-color: #343330;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar{
+  position : relative;
+  width: 10%;
+  background-color:#062731;
+  padding: 2rem;
+}
+.navList{
+  list-style-type: none;
+  padding: 0%;
+}
+
+.icons{
+  width: 3rem;
+  margin: 1rem;
+}
+
+h1{
+  font-size: 2vw;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h2{
+  font-size: 1.5vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+h3{
+  font-size: 1vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+p{
+  font-size: 1vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+li{
+  font-size: 1vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+a{
+  color: white;
+}
+#menu{
+  color: white;
+}
+#intro{
+  color: white;
+}
+#contactDetails{
+  text-align: center; 
+  color: white; 
+  padding-top: 20px;
+}
+#icons{
+  text-align: center;
+}
+#xpressdoxIcon{
+  width: 4rem;
+}
+#linkedinIcon:hover{
+  animation-name: linkedinHighlight;
+   animation-duration: 1s;
+   
+}
+@keyframes linkedinHighlight{
+  0% {background-color: rgb(0,126,187) ;
+      border-radius: 100%;}
+  50% {border-radius: 30%;}
+  100% {border-radius: 30%}
+}
